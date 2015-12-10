@@ -5,10 +5,10 @@ Requirements:
 * Coffeescript
 
 Usage:
-coffee main.coffee <numWordsInPassphrase>
+coffee main.coffee [numWordsInPassphrase]
 Randomly generates dice rolls and a passphrase with specified number of words. Arg defaults to 5.
 
-coffee main.coffee <numWordsInPassphrase> <diceroll> <diceroll> ...
+coffee main.coffee [numWordsInPassphrase] [diceroll] [diceroll] ...
 Allows you to supply the dicerolls yourself, in case you prefer to use a different random number
 generation method (like rolling actual dice).
 Ex: "coffee main.coffee 2 12345 62431" will give you "apathy urge" every time you run it.
